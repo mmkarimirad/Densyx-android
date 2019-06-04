@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    android:background="@color/containerColor"
+    card_view:cardCornerRadius="0dp"
+    >-->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/container"
+       >
+    <com.daimajia.swipe.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        swipe:leftEdgeSwipeOffset="0dp"
+        swipe:rightEdgeSwipeOffset="0dp">
+        <include
+            layout="@layout/item_cart_swipe"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/fav_checkbox_selector"
+                android:background="@null"
+                android:visibility="gone"
+                android:id="@+id/fav"
+                />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="@dimen/checkout_product_imageWidth"
+                android:layout_height="@dimen/checkout_product_imageheight"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:id="@+id/img_productImage"
+                />
+            <TextView
+                android:id="@+id/tv_productName"
+                style="@style/productsNameStyle"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/img_productImage"
+                android:layout_toLeftOf="@+id/fav"
+                android:layout_alignTop="@+id/img_productImage"
+                android:text="Name"
+                android:textColor="@color/primary"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_below="@+id/tv_productName"
+                android:layout_toRightOf="@+id/img_productImage"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:text="price"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv_product_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_below="@+id/tv_productPrice"
+                android:layout_toRightOf="@+id/img_productImage"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:text="quantity"
+
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv_product_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_below="@+id/tv_product_quantity"
+                android:layout_toRightOf="@+id/img_productImage"
+                android:textColor="@color/textPrimaryColor"
+                android:textSize="14sp"
+                android:text="Pricedsfsdfsdffdfdsf"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+    </com.daimajia.swipe.SwipeLayout>
+    </LinearLayout>
+<!--
+</android.support.v7.widget.CardView>
+-->
+
+

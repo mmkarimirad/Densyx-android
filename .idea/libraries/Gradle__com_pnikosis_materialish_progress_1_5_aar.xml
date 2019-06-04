@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pnikosis:materialish-progress:1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/be9c58511dc54e391c6816f1e8350245b29a7e4e/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/be9c58511dc54e391c6816f1e8350245b29a7e4e/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

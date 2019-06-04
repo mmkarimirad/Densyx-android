@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308692161383",
+    "firebase_url": "https://netbama-2fd39.firebaseio.com",
+    "project_id": "netbama-2fd39",
+    "storage_bucket": "netbama-2fd39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308692161383:android:c78a24d3c2d94cda",
+        "android_client_info": {
+          "package_name": "com.bs.dental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308692161383-eh0lb0g7l1ktmvv36ospjddlee5dp42r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

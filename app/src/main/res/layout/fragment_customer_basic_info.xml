@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgRootLayoutColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgRootLayoutColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/head1textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/your_personal_details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/name"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/customer_name"
+                    style="@style/drawableWithEditext"
+                    android:text="John Smith"
+                    tools:text="mm" />
+
+                <LinearLayout
+                    android:id="@+id/lv_customer_name_edit_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/first_name"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/et_customer_first_name"
+                        style="@style/formEditTextField"
+                        android:text="mm" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/last_name"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/et_customer_last_name"
+                        style="@style/formEditTextField"
+                        android:text="kr" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/identity"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/et_customer_attribute_3"
+                        style="@style/formEditTextRequiredField"
+                        android:text="0987654321" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/date_of_birth"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/dateOfBirth"
+                    style="@style/drawableWithEditext"
+                    android:text="01/01/1980" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp"
+                android:paddingBottom="6dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/gender"
+                    style="@style/drawableWithEditext"
+                    android:text="@string/male" />
+
+                <RadioGroup
+                    android:id="@+id/genderRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/male"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/female"
+                        android:textColor="@color/black" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/email"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/customer_email"
+                    style="@style/formEditTextRequiredField"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/et_customer_email"
+                    style="@style/formEditTextRequiredField"
+                    android:text="mmkarimirad@gmail.com" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/phone"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/customer_phone"
+                    style="@style/drawableWithEditext"
+                    android:text="09128050879" />
+
+                <EditText
+                    android:id="@+id/et_customer_phone"
+                    style="@style/formEditTextField"
+                    android:text="09128050879" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/userName"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/customer_username"
+                    style="@style/formEditTextRequiredField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="mmkarimirad" />
+
+                <EditText
+                    android:id="@+id/et_customer_username"
+                    style="@style/formEditTextRequiredField"
+                    android:text="mmkarimirad" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/head2textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="10dp"
+                android:text="@string/company_details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/company_name"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/company_info"
+                    style="@style/drawableWithEditext"
+                    android:text="Brain Station 23 LTD" />
+
+                <EditText
+                    android:id="@+id/et_company_info"
+                    style="@style/formEditTextField" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/head3textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:padding="10dp"
+                android:text="@string/options"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/accent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="0dp">
+
+
+                <CheckBox
+                    android:id="@+id/cb_newsletter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/news_letter"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lv_password_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/head4textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/password"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/accent" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/password"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_password"
+                        style="@style/drawableWithEditext" />
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        style="@style/formEditTextRequiredField"
+                        android:inputType="textPassword"/>
+
+                    <TextView
+                        android:id="@+id/tv_confirm_password_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/confirm_password"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/et_confirm_password"
+                        style="@style/formEditTextRequiredField"
+
+                        android:inputType="textPassword"/>
+                    s
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/customButton"
+                android:background="@drawable/rounded_layout_orange"
+                android:text="@string/register_new" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

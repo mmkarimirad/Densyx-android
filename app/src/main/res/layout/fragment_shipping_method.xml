@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgRootLayoutColor"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btn_continue"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <com.bs.dental.ui.customview.RadioGridGroupforReyMaterial
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rg_shipiingMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:alignmentMode="alignBounds"
+        app:columnCount="1"
+        app:columnOrderPreserved="false"
+        app:useDefaultMargins="true" />
+        <include
+            layout="@layout/button_name_continue"
+            style="@style/customButton"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

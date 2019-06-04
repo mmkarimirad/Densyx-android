@@ -1,0 +1,83 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom_main" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"/>
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/fam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                fab:menu_animationDelayPerItem="0"
+                fab:menu_colorNormal="#028F9C"
+                fab:menu_colorPressed="#00A1B1"
+                fab:menu_colorRipple="#00B9CE"
+                fab:menu_labels_hideAnimation="@anim/jump_to_down"
+                fab:menu_labels_showAnimation="@anim/jump_from_down"
+                fab:menu_labels_style="@style/MenuLabelsStyle"
+                fab:menu_shadowColor="#6F026461">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fab1"
+                    style="@style/MenuButtonsStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_calendar"
+                    fab:fab_label="نوبت دهی" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fab2"
+                    style="@style/MenuButtonsStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_report"
+                    fab:fab_label="گزارش ها" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fab3"
+                    style="@style/MenuButtonsStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_products"
+                    fab:fab_label="محصولات" />
+
+            </com.github.clans.fab.FloatingActionMenu>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="com.bs.dental.ui.fragment.CategoryNewFragment"
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

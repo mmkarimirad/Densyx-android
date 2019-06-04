@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/search_title"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_cart"
+        android:title="@string/menu_item_cart"
+        app:actionLayout="@layout/actionbar_cart_count"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_item_login"
+        android:title="@string/menu_item_login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_customer_info"
+        android:title="@string/menu_item_customer_Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_addresses"
+        android:title="@string/menu_item_addresses"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_wishlist"
+        android:title="@string/menu_item_wishlist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_orders"
+        android:title="@string/menu_item_orders"
+        app:showAsAction="never" />
+  <!--  <item
+        android:id="@+id/menu_item_barcode_read"
+        android:title="@string/menu_item_barcode_read"
+        app:showAsAction="never" />-->
+
+    <!--<item
+        android:id="@+id/menu_item_news"
+        android:title="@string/menu_item_news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_weblog"
+        android:title="@string/menu_item_weblog"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/menu_item_contact_us"
+        android:title="@string/menu_item_contact_us"
+        app:showAsAction="never" />
+
+    <!--comment-->
+   <!-- <item
+        android:id="@+id/menu_item_change_url"
+        android:title="@string/menu_item_change_base_url"
+        app:showAsAction="never" />-->
+
+</menu>

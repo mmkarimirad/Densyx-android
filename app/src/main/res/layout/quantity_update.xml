@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_add"
+        android:drawableLeft="@drawable/category_expand"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:layout_toRightOf="@+id/tv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/et_product_quantity"
+        android:text="1"
+        />
+    <TextView
+        android:layout_toRightOf="@+id/et_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_delete"
+        android:drawableLeft="@drawable/category_collapse"
+
+        />
+
+</RelativeLayout>

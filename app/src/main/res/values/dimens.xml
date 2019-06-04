@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="linear_top_margin">6dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="drawerHeaderImage">100dp</dimen>
+    <dimen name="FeaturedproductImageWidth">190dp</dimen>
+    <dimen name="FeaturedproductImageHeight">200dp</dimen>
+
+    <dimen name="FeaturedProductContainerSize">420dp</dimen>
+    <dimen name="FeaturedCategoryContainerSize">430dp</dimen>
+    <dimen name="produtcsimageWidth">120dp</dimen>
+    <dimen name="productsimageheight">120dp</dimen>
+    <dimen name="checkout_product_imageWidth">80dp</dimen>
+    <dimen name="checkout_product_imageheight">80dp</dimen>
+    <dimen name="cardviewWidth">180dp</dimen>
+    <dimen name="addresssubItempadding">10dp</dimen>
+    <dimen name="cardCornerRadius">3dp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="leftmargin">10dp</dimen>
+    <dimen name="rightmargin">10dp</dimen>
+
+    <dimen name="navDrawerParentCategoryFontSize">14sp</dimen>
+    <dimen name="navDrawerChildCategoryFontSize">12sp</dimen>
+    <dimen name="navDrawerChildCategoryFontSizeSmall">10sp</dimen>
+    <dimen name="home_row_height">200dp</dimen>
+    <dimen name="home_row_width">250dp</dimen>
+</resources>

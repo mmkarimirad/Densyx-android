@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/bgRootLayoutColor">
+
+    <!--<include
+        layout="@layout/dropdownlist"
+        android:id="@+id/spinner_addressSelection"
+        />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/fake_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/primary"
+
+                >
+
+                <TextView
+                    android:id="@+id/tab_billing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_bottom_primary"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/billing_address"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tab_shipping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/shipping_address"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/storeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/shippingCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/store"
+                    />
+
+                <TextView
+                    android:id="@+id/selectStore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_store_or_shipping_address"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formSpinnerNew"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinner_addressSelection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fake_tabs" />
+            </LinearLayout>
+
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btn_continue"
+                android:layout_below="@+id/spinner_addressSelection">
+
+                <LinearLayout
+                    android:id="@+id/ll_adddressParentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <EditText
+                        android:id="@+id/et_firstName"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/first_name"
+                        android:tag="FirstName" />
+
+                    <EditText
+                        android:id="@+id/et_lastName"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/last_name"
+                        android:tag="LastName" />
+
+                    <EditText
+                        android:id="@+id/et_email"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/email"
+                        android:tag="Email" />
+
+                    <EditText
+                        android:id="@+id/et_company"
+                        style="@style/formEditTextField"
+                        android:hint="@string/company"
+                        android:tag="Company" />
+
+                    <LinearLayout
+                        style="@style/formSpinnerNew"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <android.support.v7.widget.AppCompatSpinner
+                            android:id="@+id/spinner_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tag="CountryId" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/formSpinnerNew"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <android.support.v7.widget.AppCompatSpinner
+                            android:id="@+id/spinner_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tag="StateProvinceId"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:id="@+id/et_city"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/city"
+                        android:tag="City"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/et_address1"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/addressOne"
+                        android:tag="Address1"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/et_address2"
+                        style="@style/formEditTextField"
+                        android:hint="@string/addressTwo"
+                        android:tag="Address2"
+
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/et_zip_code"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/zipCode"
+                        android:tag="ZipPostalCode"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/et_phone_number"
+                        style="@style/formEditTextRequiredField"
+                        android:hint="@string/phoneNumber"
+                        android:tag="PhoneNumber"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/et_fax_number"
+                        style="@style/formEditTextField"
+                        android:hint="@string/faxNumber"
+                        android:tag="FaxNumber"
+
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <!--Height and width added-->
+            <include
+                style="@style/customButton"
+                layout="@layout/button_name_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

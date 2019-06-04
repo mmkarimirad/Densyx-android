@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 6b1b1b F95757  -->
+    <color name="primary">#00A1B1</color>
+    <color name="primaryLight">#01ADBE</color>
+    <color name="primaryDark">#0196A5</color>
+    <color name="accent">#354458</color>
+    <!--<color name="accent">#eb7260</color>-->
+    <color name="bgDateilProductCart">#eb7260</color>
+    <!--<color name="bgDateilProductCart">#e9e0d6</color>-->
+    <color name="bgDateilProductWishlist">#29aba4</color>
+    <color name="accentDark">#D34F73</color>
+    <color name="splashBg">#ffffff</color>
+    <color name="container">#ffffff</color>
+    <color name="containerColorinForm">#f8f8f8</color>
+    <color name="bgRootLayoutColor">#e8e8e8</color>
+    <color name="light_gray_color">#e8e8e8</color>
+    <color name="textSecondarColor">#9e9e9e</color>
+    <color name="textHintColor">#b4b5bc</color>
+    <color name="textPrimaryColor">#656565</color>
+    <color name="black">#000000</color>
+    <color name="differentButtonColor">#29aba4</color>
+    <color name="priceColor">#354458</color>
+    <color name="oldPriceColor">@color/textSecondarColor</color>
+    <color name="colorUparow">#ffffff</color>
+    <color name="categoryTextColor">#000</color>
+    <color name="SubcategoryTextColor">#ffffff</color>
+    <color name="homeSliderUnselectedColor">#ffffff</color>
+    <color name="homePageFeatureItemBgColor">#ffffff</color>
+
+</resources>

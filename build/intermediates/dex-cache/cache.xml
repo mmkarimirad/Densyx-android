@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\exploded-aar\com.github.rey5137\material\1.2.2.1-SNAPSHOT\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f2ed5d5e1925cfdc76fb01f2b017c0a15226ad7">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10\com.github.rey5137-material-1.2.2.1-SNAPSHOT_5d97923112ea3a7d12de6bb96c696f0bfdc34357\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\incremental-runtime-classes\nopstation\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10000\instant-run_6e5352d0375840792f5f96bebdc9c532a5c0847f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\exploded-aar\com.squareup.picasso\picasso\2.6.0-SNAPSHOT\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="62b0ef64bf234269f47ed58f3ba22ffe47589590">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10\com.squareup.picasso-picasso-2.6.0-SNAPSHOT_d76c55105dc5fcc5e294e553e8e953d7657f44c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\.android\build-cache\0ca31b2b5a2bcd350fde99b4557c3c75e16cd643\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="affe29a90a2a709bfd2b8d6411aa99c05a2be96f">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10\classes_16429f507c946c5d41fa14b439f86a6b0d77aa2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\pApp\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha4\constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a882fef6a6b9e3efbb0b6b001895a5fc7c35b391">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha4_9cdd3a5fb9f5545bfc7c2e79bf161f5b783bde58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\libs\MPAndroidChart-v3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="252a4080ab2f86bbcc69336652d2fea3d3c32b76">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\2\MPAndroidChart-v3.1.0_b39f38e550dfc353b7d363c9bff0da444b657813\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\.android\build-cache\6d55fdd153581f973a22aa82764e7e41c9dd01f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10\classes_50404a5a7d70e9f72a55f53b15a7f0b66759ed35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\incremental-classes\nopstation\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab0c158251eb73adcb96886bee08cc45ede15bfd">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\10000\instant-run-bootstrap_6f296f4f823ca7b6c4a74e6f5a4b8b7f56d6bfc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\libs\cwac-merge-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="691bb4d040b94972d45ab979d74643c682baffcc">
+        <dex dex="C:\Users\karimi\Desktop\Nop Projcts\DentalShop\DentalShop\nopstation\app\build\intermediates\transforms\dex\nopstation\debug\folders\1000\2\cwac-merge-1.1.1_6e227afa01dd5e2177e0c17a586801dd6f9e3e79\classes.dex" />
+    </item>
+
+</items>

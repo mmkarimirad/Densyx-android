@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgRootLayoutColor"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_continue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_layout_big"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_order_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/order"
+                    android:textColor="#444"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_order_summery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/orderDST" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_layout_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_uppercorner">
+
+                    <TextView
+                        style="@style/formHeaderNewDesignTextViewStyle2"
+                        android:text="@string/billing_address" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/ll_billing_address"
+                    layout="@layout/base_address_layout" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/shippingLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_layout_big"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_uppercorner">
+
+                        <TextView
+                            style="@style/formHeaderNewDesignTextViewStyle2"
+                            android:text="@string/shipping_address" />
+                    </LinearLayout>
+
+
+                    <include
+                        android:id="@+id/ll_shipping_address"
+                        layout="@layout/base_address_layout" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/storeLayouts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_layout_big"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_uppercorner">
+
+                        <TextView
+                            style="@style/formHeaderNewDesignTextViewStyle2"
+                            android:text="@string/pickup_point_address" />
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/ll_store_address"
+                        layout="@layout/store_address_layout" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_layout_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_uppercorner">
+
+                    <TextView
+                        style="@style/formHeaderNewDesignTextViewStyle2"
+                        android:text="@string/payment" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_payment_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_layout_big"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_uppercorner">
+
+                    <TextView
+                        style="@style/formHeaderNewDesignTextViewStyle2"
+                        android:text="@string/shipping" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_shipping_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_layout_big"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_uppercorner">
+
+                <TextView
+                    style="@style/formHeaderNewDesignTextViewStyle2"
+                    android:text="@string/products" />
+            </LinearLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rclv_orderProductList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_layout_big"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_checkout_attr_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <include layout="@layout/table_order_total" />
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btn_reorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_different_color_slight_rounded_corner"
+                android:text="@string/reOrder"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+
+                />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

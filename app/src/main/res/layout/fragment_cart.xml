@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="@color/bgRootLayoutColor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgRootLayoutColor">
+
+        <LinearLayout
+            android:id="@+id/ll_cartInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rclv_cartList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv_product_attribute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:id="@+id/dynamicAttributeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/container"
+                    android:orientation="vertical" />
+            </android.support.v7.widget.CardView>
+
+
+            <include layout="@layout/ll_cart_coupon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/table_order_total" />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_proceed_to_Checkout"
+                style="@style/customButton"
+                android:text="@string/proceed_to_checkout" />
+            <!-- <include
+                 layout="@layout/ll_cart_gift_card"
+                 />-->
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

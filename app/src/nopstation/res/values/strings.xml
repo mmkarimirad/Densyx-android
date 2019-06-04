@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Densyx</string>
+    <string name="analytics_tracker_id">UA-70805755-2</string>
+    <string name="tagName">GTM-TF9NJG</string>
+    <string name="gcm_SenderId">220246971126</string>
+    <string name="login">ورود</string>
+    <string name="login_btn">ورود</string>
+    <string name="username_or_email">ایمیل</string>
+    <string name="login_succssful">ورود با موفقیت</string>
+    <string name="username_password_not_match">نام کاربری و رمز عبور مطابقت ندارد.</string>
+    <string name="username_password_require">نام کاربری و رمز عبور مورد نیاز است</string>
+    <string name="email_permission_require">مجوز ایمیل لازم است.</string>
+    <string name="password">رمز عبور</string>
+    <string name="new_customer">مشتری جدید؟</string>
+    <string name="forgot_password">رمز عبور را فراموش کرده اید؟</string>
+    <string name="register">ثبت نام</string>
+    <string name="have_a_facebook_acc">آیا حساب فیس بوک دارید؟</string>
+    <string name="your_personal_details">اطلاعات شخصی شما</string>
+    <string name="name">نام</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی </string>
+    <string name="identity">شماره ملی </string>
+    <string name="date_of_birth">تاریخ تولد</string>
+    <string name="gender">جنسیت</string>
+    <string name="male">مرد</string>
+    <string name="female">زن</string>
+    <string name="email">ایمیل</string>
+    <string name="phone">تلفن</string>
+    <string name="userName">نام کاربری</string>
+    <string name="company_details">اطلاعات شرکت</string>
+    <string name="company_name">نام شرکت</string>
+    <string name="options">گزینه ها</string>
+    <string name="news_letter">خبرنامه</string>
+    <string name="confirm_password">رمز عبور را تایید کنید</string>
+    <string name="register_new">ثبت نام</string>
+    <string name="customer_succes_msg">ثبت نام مشتری با موفقیت انجام شد.</string>
+    <string name="please_give_email">لطفا آدرس ایمیل خود را وارد کنید.</string>
+    <string name="send">ارسال</string>
+    <string name="enter_email">ایمیل خود را وارد کنید.</string>
+    <string name="enter_valid_email">ایمیل معتبر وارد کنید.</string>
+    <string name="feature_product">محصولات ویژه</string>
+    <string name="feature_menufecture">سازنده ویژگی</string>
+    <string name="view_all_items">مشاهده تمام موارد</string>
+    <string name="sign_in">ورود</string>
+
+    <string name="shop1">فروشگاه دنسیکس</string>
+    <string name="shop2">فروشگاه</string>
+
+    <string name="cantact_us">شما میتوانید از طریق موارد زیر با ما در تماس باشید :</string>
+    <string name="email_cantact_us">support@densyx.com</string>
+    <string name="tell_cantact_us1">021-88004228</string>
+    <string name="tell_cantact_us2">تماس 2</string>
+    <string name="telegram_cantact_us">https://telegram.me/netbama</string>
+    <string name="address_cantact_us1">تهران، شیخ بهایی جنوبی، خیابان آزادگان، بیست و پنجم غربی، شماره 65</string>
+    <string name="address_cantact_us2">آدرس 2</string>
+
+    <!--Billing address-->
+    <string name="billing_address">آدرس کاربر</string>
+    <string name="shipping_address">آدرس حمل و نقل</string>
+    <string name="lastName">نام خانوادگی </string>
+    <string name="company">شرکت</string>
+    <string name="city">شهر</string>
+    <string name="zipCode">کد پستی</string>
+    <string name="phoneNumber">شماره تلفن</string>
+    <string name="faxNumber">شماره فکس</string>
+    <string name="addressOne">آدرس 1</string>
+    <string name="addressTwo">آدرس 2</string>
+    <string name="continiue">ادامه</string>
+
+    <!--cart-->
+    <string name="discount">تخفیف</string>
+    <string name="discountTwo">تخفیف</string>
+    <string name="applyCoupon">درخواست کوپن</string>
+    <string name="enteryourCouponhere">کوپن خود را اینجا وارد کنید</string>
+    <string name="subTotal">زیرمجموعه</string>
+    <string name="shipping">حمل و نقل</string>
+    <string name="tax">مالیات</string>
+    <string name="total">جمع</string>
+    <string name="reOrder">دوباره سفارش دهید</string>
+
+    <!--confirm order-->
+    <string name="neme">نام: </string>
+    <string name="emailCon">ایمیل: </string>
+    <string name="phoneCon">تلفن: </string>
+    <string name="adress">آدرس: </string>
+    <string name="cityCon">شهر: </string>
+    <string name="confirm">تایید</string>
+    <string name="products">محصولات</string>
+
+    <!--contact us-->
+    <string name="enquiry">پرس و جو</string>
+    <string name="emailUs">ایمیل ما</string>
+    <string name="sMSUs">پیامک ما</string>
+
+    <!--customer address-->
+    <string name="emailaddress">آدرس ایمیل</string>
+    <string name="country">کشور</string>
+    <string name="zipPostalCode">کد پستی</string>
+    <string name="save">ذخیره</string>
+
+    <string name="aDDNEW">جدید اضافه کن</string>
+
+
+    <!--customer order-->
+
+    <string name="order">سفارش</string>
+    <string name="orderDST">تاریخ سفارش: /n  وضعیت سفارش: /n </string>
+    <string name="payment">پرداخت</string>
+    <string name="price">قیمت</string>
+
+
+    <!--password change .............. NB translate not found-->
+    <string name="changePassword">تغییر رمز عبور</string>
+    <string name="currentPassword">رمز عبور فعلی</string>
+    <string name="newPassword">رمز جدید</string>
+    <string name="confirmNewpassword">رمز عبور جدید را تأیید کنید</string>
+
+    <!--product detail-->
+    <string name="addToWishList">اضافه کردن به علاقه مندی</string>
+    <string name="addToCart">اضافه کردن به سبد خرید</string>
+    <string name="productName">نام محصول</string>
+    <string name="description">توضیحات</string>
+    <string name="Specification">مشخصات</string>
+
+    <string name="advancedsearch">جستجوی پیشرفته</string>
+    <string name="addAllItemstoCart">همه موارد را به سبد اضافه کنید</string>
+
+    <string name="order_number_is">شماره سفارش هست</string>
+    <string name="your_order_is_confirm">سفارش شما تایید شده است</string>
+    <string name="log_out">خروج</string>
+    <string name="are_you_logout">برای خروج مطمئن هستید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="change_base_url">Change Base Url</string>
+    <string name="url_is_require">آدرس مورد نیاز است</string>
+    <string name="cyber_source_payment">پرداخت منبع سایبری</string>
+    <string name="barcode_success">بارکد با موفقیت خوانده شد</string>
+    <string name="barcode_failure">هیچ بارکدی ثبت نشده است</string>
+    <string name="barcode_error">خطا در خواندن بارکد</string>
+    <string name="menu_item_barcode_read">بارکد خوانده شده</string>
+    <string name="state">استان</string>
+    <string name="new_address">آدرس جدید</string>
+    <string name="street_address">آدرس خیابان</string>
+    <string name="select_a_country">یک کشور را انتخاب کنید</string>
+    <string name="select_state">انتخاب حالت</string>
+    <string name="please_complete_previous_step">لطفا ابتدا مراحل قبلی را تکمیل کنید</string>
+    <string name="shopping_cart">سبد خرید</string>
+    <string name="cart_is_empty">سبد خرید خالی  است.</string>
+    <string name="calculated_during_checkout">محاسبه شده در زمان پرداخت</string>
+    <string name="discount_success_msg">تخفیف کاربردی با موفقیت</string>
+    <string name="update_cart_item">تکمیل بخش کارت</string>
+    <string name="not_item_to_process">موردی برای پردازش وجود ندارد</string>
+    <string name="contact_us">تماس با ما</string>
+    <string name="send_emil">ارسال ایمیل</string>
+    <string name="contact">تماس </string>
+    <string name="add_address">اضافه کردن آدرس</string>
+    <string name="edit_address">ویرایش آدرس</string>
+    <string name="address_update_succss">نشانی با موفقیت به روز شد</string>
+    <string name="error_adding_address">خطا در افزودن آدرس: </string>
+    <string name="address_added_success">آدرس با موفقیت اضافه شد</string>
+    <string name="addresses">Addresses</string>
+    <string name="address">آدرس</string>
+    <string name="no_address_found">هیچ آدرس یافت نشد</string>
+    <string name="address_remove_succssfully">آدرس با موفقیت حذف شد</string>
+    <string name="error_removing_address">خطا در حذف آدرس، بعدا دوباره امتحان کنید.</string>
+    <string name="are_you_sure_delete_address">آیا مطمئن هستید که میخواهید این آدرس را حذف کنید؟</string>
+    <string name="delete_address">حذف آدرس</string>
+    <string name="my_account">حساب من</string>
+    <string name="customer_info_updated">اطلاعات مشتری به روز شد.</string>
+    <string name="error_saving_data">خطا در ذخیره داده ها:</string>
+    <string name="order_date">تاریخ سفارش:</string>
+    <string name="order_status">وضعیت سفارش:</string>
+    <string name="order_total">سفارش کل:</string>
+    <string name="payment_method">روش پرداخت:</string>
+    <string name="payment_status">وضعیت پرداخت:</string>
+    <string name="shipping_method">روش حمل و نقل:</string>
+    <string name="shipping_status">وضعیت حمل و نقل:</string>
+    <string name="orders">سفارشات</string>
+    <string name="no_orders_found">سفارشات یافت نشد</string>
+    <string name="customer_info">اطلاعات مشتری</string>
+    <string name="downloadable_product">محصولات دانلودی</string>
+    <string name="password_change_success">گذرواژه با موفقیت تغییر کرد</string>
+    <string name="all_field_are_require">تمام زمینه ها مورد نیاز است</string>
+    <string name="new_password_not_match">گذرواژه های جدید مطابقت نداشتند.</string>
+    <string name="new_password_same_as">کلمه عبور جدید همان رمز عبور فعلی است.</string>
+    <string name="product_add_to_wishlist">محصول به لیست علاقه مندی های اضافه شده است.</string>
+    <string name="product_added_to_cart">محصول اضافه شده به سبد خرید</string>
+    <string name="no_product_found">هیچ محصول یافت نشد.</string>
+    <string name="error_register_customer">خطا در ثبت نام مشتری:</string>
+    <string name="search_product">جستجوی محصولات</string>
+    <string name="all">همه</string>
+    <string name="search_limit">کلمه وارد شده حداقل باید دارای 3 حرف باشد.</string>
+    <string name="wishlist">لیست علاقه مندی ها</string>
+    <string name="error_removing_item">خطا در حذف موارد. اتصال اینترنت خود را بررسی نمایید</string>
+    <string name="wishlist_empty">.لیست علاقه مندی ها خالی است</string>
+    <string name="quantity">مقدار: </string>
+    <string name="order_number">شماره سفارش: </string>
+    <string name="top_to_capture">Tap to capture. Pinch/Stretch to zoom</string>
+    <string name="confirm_order">تأیید سفارش</string>
+    <string name="signin">ورود</string>
+    <string name="menu_item_change_base_url">Use your Api</string>
+    <string name="category">دسته بندی </string>
+    <string name="facebook_app_id">1871552953072162</string>
+    <string name="automatically_search_sub_categories">جستجوی خودکار زیردسته ها</string>
+    <string name="manufacturer">سازنده</string>
+    <string name="price_range">حدود قیمت</string>
+    <string name="to">تا</string>
+    <string name="search_in_product_descriptions">جستجو در توضیحات محصول</string>
+    <string name="search">جستجو</string>
+    <string name="proceed_to_checkout">به اتمام رسید</string>
+    <string name="checkout_as_guests">پرداخت به عنوان مهمان</string>
+    <string name="returning_customer">مشتری بازپرداخت؟</string>
+    <string name="welcome_please_sign_in">خوش آمدید، لطفا ثبت نام کنید.</string>
+    <string name="by_creating_an_account_on_our_website_you_will_be_able_to_shop_faster_be_up_to_date_on_an_orders_status_and_keep_track_of_the_orders_you_have_previously_made">با ایجاد یک حساب کاربری در وب سایت ما، شما می توانید سریع تر خرید کنید، به روز شده در وضعیت سفارشات، و پیگیری سفارشات شما قبلا ساخته شده.</string>
+    <string name="checkout_as_a_guest_or_register">بررسی به عنوان یک مهمان یا ثبت نام</string>
+    <string name="register_and_save_time">ثبت نام و صرفه جویی در وقت.</string>
+    <string name="register_with_us_for_future_convenience_fast_and_easy_check_out_easy_access_to_your_order_history_and_status">برای راحتی در آینده با ما ثبت نام کنید: دسترسی سریع و آسان به تاریخچه و وضعیت سفارش شما آسان است.</string>
+    <string name="no_specification_found">هیچ مشخصات یافت نشد.</string>
+    <string name="sort_by">مرتب سازی بر اساس</string>
+    <string name="add_new">جدید اضافه کن</string>
+    <string name="add_to_cart">افزودن به سبد خرید</string>
+    <string name="add_all_items_to_cart">همه موارد را به سبد اضافه کنید</string>
+    <string name="barcode_header">برای خواندن بارکد روی بارکدخوان کلیک کنید</string>
+    <string name="read_barcode">بارکد را بخوانید</string>
+    <string name="auto_focus">فوکوس خودکار</string>
+    <string name="use_flash">از فلش استفاده کنید</string>
+    <string name="store">فروشگاه</string>
+    <string name="select_store_or_shipping_address">فروشگاه یا آدرس ارسال را انتخاب کنید.</string>
+    <string name="pickup_point_address">آدرس حمل و نقل</string>
+    <string name="test_your_api">Test your api</string>
+    <string name="use_existing_api">Use Existing Api</string>
+    <string name="example_http_yourstore_com">Example: http://yourstore.com</string>
+    <string name="back_button_click_msg">برای خروج دوباره کلیک کنید</string>
+
+
+    <string name="internet_connection_error">خطا در اتصال به اینترنت</string>
+
+
+</resources>

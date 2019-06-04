@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Densyx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="menu_item_profile">حساب من</string>
+    <string name="menu_item_cart">سبد خرید</string>
+    <string name="menu_item_save">ذخیره</string>
+    <string name="menu_item_customer_Info">حساب من</string>
+    <string name="menu_item_addresses">آدرس</string>
+    <string name="menu_item_orders">سفارشات</string>
+    <string name="menu_item_change_password">اعتبار</string>
+    <string name="menu_item_login">ورود</string>
+    <string name="menu_item_logout">خروج</string>
+    <string name="menu_item_filter">فیلتر کردن</string>
+    <string name="menu_item_sort">مرتب سازی بر اساس</string>
+    <string name="menu_item_change_base_url">استفاده از api</string>
+    <string name="search_title">جستجو</string>
+    <string name="menu_item_wishlist">لیست علاقه مندی ها</string>
+    <string name="hint_email">ایمیل خود را وارد کنید</string>
+    <string name="hint_name">نام خود را وارد کنید</string>
+    <string name="menu_item_contact_us">تماس</string>
+    <string name="menu_item_news">اخبار</string>
+    <string name="menu_item_weblog">وبلاگ</string>
+
+    <string name="cantact_us">شما میتوانید از طریق موارد زیر با ما در تماس باشید :</string>
+    <string name="email_cantact_us">support@densyx.com</string>
+    <string name="tell_cantact_us">021-88004228</string>
+    <string name="telegram_cantact_us">https://telegram.me/densyx</string>
+    <string name="address_cantact_us">تهران، شیخ بهایی جنوبی، خیابان آزادگان، بیست و پنجم غربی، شماره 65</string>
+
+
+    <string-array name="demo_sub_cats">
+        <item>مورد اول</item>
+        <item>مورد دوم</item>
+        <item>مورد سوم</item>
+    </string-array>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">دسترسی به دوربین برای شناسایی مورد نیاز است</string>
+    <string name="no_camera_permission">این برنامه نمیتواند اجرا شود چون مجوز دوربین ندارد برنامه اکنون خارج خواهد شد.</string>
+    <string name="low_storage_error">با توجه به ذخیره سازی دستگاه کم، نمی توان وابستگی های تشخیص چهره را دانلود کرد.</string>
+    <string name="title_activity_main">بارکد خوان نمونه</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">بارکد را بخوانید</string>
+    <string name="auto_focus">تمرکز خودکار</string>
+    <string name="use_flash">از فلش استفاده کنید</string>
+    <string name="barcode_success">بارکد با موفقیت خوانده شد</string>
+    <string name="barcode_failure">هیچ بارکدی ثبت نشده است</string>
+    <string name="barcode_error">خطا در خواندن بارکد</string>
+    <string name="menu_item_barcode_read">بارکدخوان</string>
+    <string name="home_title_featured_products">محصولات ویژه</string>
+    <string name="btn_home_view_all_items">مشاهده تمام موارد</string>
+    <string name="facebook_app_id">1871552953072162</string>
+    <string name="email_address">آدرس ایمیل</string>
+    <string name="please_give_email">لطفا آدرس ایمیل خود را وارد کنید</string>
+    <string name="login">ورود به حساب کاربری</string>
+    <string name="new_customer">مشتری جدید؟ </string>
+</resources>

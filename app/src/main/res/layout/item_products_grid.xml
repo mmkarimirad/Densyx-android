@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="280dp"
+    card_view:cardCornerRadius="5dp"
+
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/container"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:button="@drawable/fav_checkbox_selector" />
+
+        <ImageView
+            android:id="@+id/img_productImage"
+            android:layout_width="@dimen/produtcsimageWidth"
+            android:layout_height="@dimen/productsimageheight"
+            android:layout_below="@+id/fav"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_productName"
+            style="@style/productsNameStyle"
+            android:layout_below="@+id/img_productImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Name"
+            android:lines="3"
+            android:maxLines="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_productName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Price"
+                android:textColor="@color/differentButtonColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_productOldPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@id/tv_productPrice"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="p2"
+                android:textColor="@color/textSecondarColor"
+                android:textSize="10sp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+

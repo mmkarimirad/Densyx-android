@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="230dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/container"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--  <com.bs.ecommerce.ui.views.CustomList
+            android:id="@+id/customList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+        <ImageView
+            android:id="@+id/img_productImage"
+            android:layout_width="@dimen/productsimageheight"
+            android:layout_height="130dp"
+            android:layout_below="@+id/customList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/subName"
+            style="@style/productsNameStyle"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_productImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Name"
+            android:lines="3"
+            android:maxLines="3"/>
+
+        <com.bs.dental.ui.views.CustomList
+            android:id="@+id/customList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+

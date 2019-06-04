@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bgRootLayoutColor">
+
+<TextView
+        android:id="@+id/toolbar"
+        android:background="@color/primary"
+        android:textColor="#fff"
+        android:padding="14dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Payment Details"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <ScrollView
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            >
+
+        <TextView
+                android:text="Select Credit Card"
+                android:padding="10dp"
+                style="@style/AuthorizedDonNetFormTextView"/>
+
+        <Spinner
+                style="@style/formSpinner"
+                android:id="@+id/spinner_credit_card"
+                android:tag="CountryId"
+                android:entries="@array/demo_sub_cats"
+                />
+
+        <TextView
+                android:text="Card holder name"
+                style="@style/AuthorizedDonNetFormTextView"/>
+
+        <EditText
+                style="@style/formEditTextRequiredField"
+                android:id="@+id/et_card_holder_name"
+                android:hint=""
+                android:tag="FirstName"
+                />
+
+        <TextView
+                android:text="Card number"
+                android:padding="10dp"
+                style="@style/AuthorizedDonNetFormTextView"/>
+
+        <EditText
+                style="@style/formEditTextRequiredField"
+                android:id="@+id/et_card_number"
+                android:hint=""
+                android:tag="LastName"
+                />
+        <TextView
+                android:text="Expiration date"
+                style="@style/AuthorizedDonNetFormTextView"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/AuthorizedDonNetFormTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Month"
+                    android:layout_marginRight="-10dp"/>
+
+        <Spinner
+                android:layout_weight="1"
+                style="@style/formSpinner"
+                android:id="@+id/spinner_month"
+                android:entries="@array/demo_sub_cats"
+                />
+
+            <TextView
+                    style="@style/AuthorizedDonNetFormTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:layout_marginRight="-10dp"/>
+            <Spinner
+                    android:layout_weight="1"
+                    style="@style/formSpinner"
+                    android:id="@+id/spinner_year"
+                    android:entries="@array/demo_sub_cats"
+
+                    />
+
+        </LinearLayout>
+
+
+        <TextView
+                android:text="Card code"
+                style="@style/AuthorizedDonNetFormTextView"/>
+
+        <EditText
+                style="@style/formEditTextRequiredField"
+                android:id="@+id/et_card_code"
+                android:hint=""
+                android:layout_marginBottom="20dp"
+
+                />
+
+        <include layout="@layout/button_name_continue" />
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

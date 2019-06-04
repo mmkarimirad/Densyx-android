@@ -1,0 +1,116 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.bs.dental"
+        minSdkVersion 15
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0.1"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/res/layout',
+                    'src/main/res/layouts/product'
+            ]
+        }
+    }
+
+
+    productFlavors {
+        nopstation {
+            applicationId "com.bs.dental"
+            versionCode 14
+            versionName "1.7.8"
+            sourceSets {
+                nopstation.resources.srcDirs = ['src/nopstation/res']
+            }
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/android-support-v7-appcompat.jar')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+    // Update picasso for load HTTPS images
+    //compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.picasso:picasso:2.6.0-SNAPSHOT'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'org.roboguice:roboguice:3.0.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:gridlayout-v7:25.3.1'
+    compile 'com.android.support:palette-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.github.rey5137:material:1.2.2.1-SNAPSHOT'
+    compile 'com.pnikosis:materialish-progress:1.5'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    // compile 'com.commonsware.cwac:merge:1.1.1'
+    compile files('libs/cwac-merge-1.1.1.jar')
+    compile 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
+    compile 'com.marshalchen.ultimaterecyclerview:library:0.3.18'
+    compile 'com.github.markomilos:paginate:0.5.1'
+    compile 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+    compile 'com.google.android.gms:play-services-vision:11.0.4'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.malinskiy:superrecyclerview:1.1.1'
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.12.4'
+    compile 'com.braintreepayments.api:braintree:2.3.9'
+    compile 'com.braintreepayments.api:drop-in:2.3.8'
+    compile 'com.flipboard:bottomsheet-core:1.5.0'
+    compile 'com.flipboard:bottomsheet-commons:1.5.0'
+    compile 'org.apmem.tools:layouts:1.10@aar'
+    compile 'com.google.firebase:firebase-core:11.0.4'
+    compile 'com.facebook.android:facebook-android-sdk:4.26.0'
+    compile 'io.jsonwebtoken:jjwt:0.7.0'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
+    compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    provided 'org.roboguice:roboblender:3.0.1'
+    //*** mmkr
+    compile 'com.github.clans:fab:1.6.4'
+    //compile(name:'MPAndroidChart-v3.1.0', ext:'aar')
+    //implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //compile files('libs/MPAndroidChart-v3.1.0.aar')
+    //compile files('libs/MPAndroidChart-v3.0.1.jar')
+    compile files('libs/MPAndroidChart-v3.1.0.jar')
+}
+apply plugin: 'com.google.gms.google-services'
